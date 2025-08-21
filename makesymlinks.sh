@@ -3,8 +3,14 @@
 set -euo pipefail
 
 SOURCE_FILES=(
+	".bashrc"
+	".bash_profile"
+	".bash_aliases"
+	".tux.config"
+	".config/ghostty/config"
 	".config/hypr/hyprland.conf"
 	".config/hypr/hyprpaper.conf"
+	".config/kitty/kitty.conf"
 )
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
